@@ -23,6 +23,7 @@ LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SFPL_DataSF_libr
 In the loading statement we have the line:
 
 IGNORE 12 LINES 
+
 Typically this should be ignore 1 line, where the excel stores variable column names, but when I imported the csv and examined it in notepad++ the first 12 lines were dedicated to column names. This maybe different for you, so if there is an issue loading the csv with improper data type, opened the csv with notepad, notepad++ and check what line you should be looking at 
 
 The rest of the SQL should work as intended. Just make sure that default schema is set to SFILS. .    
