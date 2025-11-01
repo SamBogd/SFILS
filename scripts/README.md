@@ -11,9 +11,6 @@ The scripts that are used to modify (indexing, moving, updating, data cleaning, 
 
 This folder contains the source code of the (minimal) application that allows user interaction with the database.
 
-
-https://downloads.mysql.com/docs/mysql-for-excel-en.a4.pdf
-
 Place: SFPL_DataSF_library-usage_Jan_2023 - Sheet1 
 Into FilePath: C:\ProgramData\MySQL\MySQL Server 8.0\Uploads
 
@@ -36,3 +33,6 @@ IGNORE 12 LINES
 Typically this should be ignore 1 line, where the excel stores variable column names, but when I imported the csv and examined it in notepad++ the first 12 lines were dedicated to column names. This maybe different for you, so if there is an issue loading the csv with improper data type, opened the csv with notepad, notepad++ and check what line you should be looking at 
 
 The rest of the SQL should work as intended. Just make sure that default schema is set to SFILS. .    
+
+I used this pdf quite a bit to help me understand import
+https://downloads.mysql.com/docs/mysql-for-excel-en.a4.pdf
