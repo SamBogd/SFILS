@@ -10,7 +10,7 @@ Into FilePath: C:\ProgramData\MySQL\MySQL Server 8.0\Uploads
 
 Note: This may be on a different partition for you (D:drive, E:drive, etc. We place it here in order to avoid having to turn off certain sql safety systems) , 
 
-Note: Since I had to zip the file it may be labeled SFPL_DataSF_library-usage_Jan_2023 - Sheet1 - Copy
+Note: Since I had to zip the file it may be labeled SFPL_DataSF_library-usage_Jan_2023 - Sheet1 - Copy (Just delete - copy)
 
 
 —-----------------------------------------------------------------------------------------------------------------------------
