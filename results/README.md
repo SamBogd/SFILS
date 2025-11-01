@@ -12,6 +12,10 @@ Did we store the data in our database appropriately?
 
 This is meant to be a more manageable database with multiple tables. We are not simply dumping the whole Excel sheet into one giant MySQL table.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+If it has issues with the funciton, you can use this placed in the .py (Same as thhe App file)
+
+mydb = mysql.connector.connect( host="{hostservername}", user="{username}", password="{user password}", #Enter whatever your password is here database = "SFILS" #Locks us to this Database )
 
 
 
