@@ -9,8 +9,6 @@ This includes how to build and run the software, along with any screenshots that
 
 ----------------------------------------------------------------------------------------------------------------------------
 **#SQL Installation Steps**
-This folder contains the source code of the (minimal) application that allows user interaction with the database.
-
 
 https://downloads.mysql.com/docs/mysql-for-excel-en.a4.pdf
 
