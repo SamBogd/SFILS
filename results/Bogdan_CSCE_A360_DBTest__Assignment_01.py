@@ -29,9 +29,9 @@ def dbConnect():
 #print(mydb)
 
 # mydb = mysql.connector.connect(
-#     host="localhost",
-#     user="root",
-#     password="Goaway!ya10##", #Enter whatever your password is here
+#     host="",
+#     user="",
+#     password="", #Enter whatever your password is here
 #     database = "SFILS"  #Locks us to this Database
 #     )
 
@@ -117,5 +117,6 @@ for (branchCode, branchLocation) in patronBranchMain:
     myCount += 1
 
 print (f"\nPatron whos home library is the main SFILS library: {myCount}  |  Time Elapsed: {(time.perf_counter() - startTime):.3f}s")
+
 
 
