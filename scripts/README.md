@@ -7,9 +7,8 @@ The scripts that are used to modify (indexing, moving, updating, data cleaning, 
 
 
 
-# The App to Query, Retrieve, and Update Database
 
-This folder contains the source code of the (minimal) application that allows user interaction with the database.
+—-----------------------------------------------------------------------------------------------------------------------------
 
 Place: SFPL_DataSF_library-usage_Jan_2023 - Sheet1 
 Into FilePath: C:\ProgramData\MySQL\MySQL Server 8.0\Uploads
@@ -19,7 +18,6 @@ Note: This may be on a different partition for you (D:drive, E:drive, etc. We pl
 Note: Since I had to zip the file it may be labeled SFPL_DataSF_library-usage_Jan_2023 - Sheet1 - Copy (Just delete - copy)
 
 
-—-----------------------------------------------------------------------------------------------------------------------------
 IN .SQL FILE  
 Make sure you set disk partition on the right disk partition
 
