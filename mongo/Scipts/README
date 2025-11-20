@@ -1,2 +1,19 @@
 
-Make sure our MongoDB Compass instance is running and has already had the CSV imported.
+Make sure our MongoDB Compass instance is running and has already had the CSV imported. 
+Download and install instructions (however light they are) can be found in App/README
+
+otherwise we run Bogdan_CSCEA360_MongoDB_Test.py
+
+
+My Results (May differ on other computers) 
+
+Time Elapsed To Fetch Select Documents and Document values: 0.000s
+Total Amount of Patrons With More Than One Hundred Renewals: 99715  |  Time Elapsed: 0.118s
+Total Amount of Patrons: 437116  |  Time Elapsed: 2.186s
+Total Checkout: 70412704  |  Time Elapsed: 0.086s
+Total Renewals: 33101225  |  Time Elapsed: 0.086s
+
+Average amount of Checkouts per patron: 161.085
+Average amount of Renewals per patron: 75.726
+
+Patron whos home library is the main SFILS library: 143471  |  Time Elapsed: 0.183s
