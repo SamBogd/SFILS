@@ -1,6 +1,6 @@
 The App to Query, Retrieve, and Update Database
+I understand that I have much more documentation for the SQL implementatiom, but truthfully setting up MongoDB was much easier, with signfigant less prerequiste scripting. 
 
-This folder contains the source code of the (minimal) application that allows user interaction with the database.
 
 Make sure our MongoDB Compass instance is running and has already had the CSV imported.
 
@@ -15,4 +15,19 @@ download and unzip SFPL_DataSF_library-usage_Jan_2023 - Sheet1.zip
 In MongoDB Compass add file, name database SFILS and also name collection SFILS 
 I prepared the .csv so it inherits the correctish validation rules, but they can also be found Validation rules:
 
+To makle sure that we have the correct library, we can follow the first few steps at https://www.mongodb.com/resources/languages/python
+But all you need to do is write 
+pip install - pymongo (if you dont already have it) 
+
 Run CSCEA360_SFILS_MongoDB_Bogdan.py in your IDE I used Visual Studio 2022
+
+In the off chance that it is not running, its possible that your local instance--or your server- isn't using the correct connection string. 
+in MongoDB Compass, right click on your Database and click copy connection string
+
+#This is imported almost directly from the How to Use Python with MongoDB website linked in the A02 pdf
+# https://www.mongodb.com/resources/languages/python
+CONNECTION_STRING = "{YOUR CONNECTION STRING HERE"
+client = MongoClient(CONNECTION_STRING)
+Or if you names your db something different, you can edit database and collection to your selected name
+db = client["SFILS"]
+myCollect = db["SFILS"]
