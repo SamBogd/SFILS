@@ -1,1 +1,18 @@
+The App to Query, Retrieve, and Update Database
 
+This folder contains the source code of the (minimal) application that allows user interaction with the database.
+
+Make sure our MongoDB Compass instance is running and has already had the CSV imported.
+
+https://www.mongodb.com/products/tools/compass
+In the top left hover over Products and download and instll Community Edition.
+
+
+Compass should prompt you to upload file
+download and unzip SFPL_DataSF_library-usage_Jan_2023 - Sheet1.zip
+
+
+In MongoDB Compass add file, name database SFILS and also name collection SFILS 
+I prepared the .csv so it inherits the correctish validation rules, but they can also be found Validation rules:
+
+Run CSCEA360_SFILS_MongoDB_Bogdan.py in your IDE I used Visual Studio 2022
