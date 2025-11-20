@@ -1,0 +1,68 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      '_id',
+      'Circulation Active Month',
+      'Home Library Code',
+      'Home Library Definition',
+      'Notification Code Definition',
+      'Notification Preference Code',
+      'Patron Type Code',
+      'Patron Type Definition',
+      'Provided Email Address',
+      'Total Checkout',
+      'Total Renewal',
+      'Within San Francisco County',
+      'Year Patron Registered'
+    ],
+    properties: {
+      _id: {
+        bsonType: 'objectId'
+      },
+      'Age Range': {
+        bsonType: 'string'
+      },
+      'Circulation Active Month': {
+        bsonType: 'string'
+      },
+      'Circulation Active Year': {
+        bsonType: 'int'
+      },
+      'Home Library Code': {
+        bsonType: 'string'
+      },
+      'Home Library Definition': {
+        bsonType: 'string'
+      },
+      'Notification Code Definition': {
+        bsonType: 'string'
+      },
+      'Notification Preference Code': {
+        bsonType: 'string'
+      },
+      'Patron Type Code': {
+        bsonType: 'int'
+      },
+      'Patron Type Definition': {
+        bsonType: 'string'
+      },
+      'Provided Email Address': {
+        bsonType: 'bool'
+      },
+      'Total Checkout': {
+        bsonType: 'int'
+      },
+      'Total Renewal': {
+        bsonType: 'int'
+      },
+      'Within San Francisco County': {
+        bsonType: 'bool'
+      },
+      'Year Patron Registered': {
+        bsonType: 'int'
+      }
+    }
+  }
+}
+
